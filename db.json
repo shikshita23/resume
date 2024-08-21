@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Shikshita Subedi Khatri",
+    "address": "Koteshwor, Kathmandu",
+    "phone": "9840217070",
+    "email": "shikshitasubedi1@gmail.com",
+    "github": "https://github.com/shikshita23"
+  },
+  "intro": "As a CSIT (Computer Science And Information Technology) student, I am currently pursuing a degree/diploma in the field of technology and computing. I am knowledgeable in C, HTML, CSS, Bootstrap, Tailwind, and ReactJS. I possess the ability to work independently or in a team. I am eager to apply my skills and knowledge to the IT industry.",
+  "experience": [
+    {
+      "title": "Internship",
+      "company": "Portpro",
+      "location": "Jwalakhel",
+      "duration": "Aug 2023 - Jan 2024",
+   
+      "description": "Engaged in a 5-month immersive internship as a React Developer. Contributed to the creation and enhancement of web applications."
+    },
+    {
+      "title": "Internship",
+      "company": "Codavatar",
+      "location": "Kalopul",
+      "duration": "May 2024 - August 2024",
+      "description": "Engaged in a Frontend internship."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor in Computer System And Information And Technology",
+      "institution": "Samridhhi College",
+      "location": "Bhaktapur",
+      "duration": "Sep 2019 - Present"
+      
+    },
+    {
+      "degree": "+2 (Science)",
+      "institution": "KMC National College",
+      "location": "Lalitpur",
+      "duration": "Jun 2017 - Jul 2019",
+      "gpa": 3.25
+    },
+    {
+      "degree": "SEE",
+      "institution": "Kanjirowa National School",
+      "location": "Kathmandu",
+      "duration": "May 2009 - Apr 2017",
+      "gpa": 3.60
+    }
+  ],
+  "project": [
+    {
+      "name": "D mart",
+      "description": "An eCommerce website built with React facilitating seamless browsing, shopping, and checkout experiences.",
+      "url": "https://github.com/shikshita23/dmart.git"
+    },
+    {
+      "name": "Weather App",
+      "description": "A weather app using React provides users with real-time weather information in a user-friendly way.",
+      "url": "https://github.com/shikshita23/weatherApp.git"
+    },
+    {
+      "name": "To-Do List",
+      "description": "A To-Do list website using React allowing users to add, delete, and edit schedules.",
+      "url": "https://github.com/shikshita23/ToDo.git"
+    },
+    {
+      "name": "Quote Generator",
+      "description": "A Quote Generator website which allows users to generate random quotes along with the author's name.",
+      "url": "https://github.com/shikshita23/quote_generator.git"
+    },
+    {
+      "name": "Quiz",
+      "description": "A quiz app using React offers interactive quizzes with dynamic questions and options.",
+      "url": "https://github.com/shikshita23/quiz-app.git"
+    }
+   
+  ],
+  "training_certifications": [
+    {
+      "title": "Staff Capacity Development on Article Publication",
+      "year": 2023,
+      "organization": "Samriddhi College and University Grant Commission"
+    }
+  ],
+  "skills": [
+    "HTML", "CSS", "React JS","Bootstrap","Tailwind"
+  ],
+  "languages": [
+    "Nepali",   "English",  "Hindi"
+  ]
+
+}
