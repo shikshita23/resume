@@ -3,12 +3,12 @@ import  { useEffect, useState } from 'react'
 
 const Skills = () => {
      const [skill, setSkill]=useState([])
-     const [len,setLen]=useState(0)
+     // const [len,setLen]=useState(0)
      useEffect(()=>{
           axios.get("http://localhost:3000/skills")
           .then((res)=>{
                setSkill(res.data)
-               setLen(skill.length)
+               // setLen(skill.length)
                
           })
      },[])
@@ -21,7 +21,7 @@ const Skills = () => {
                {skill.map((item,index)=>(
                     <div key={index} className='m-1'>
                         {item.skill}
-                        {len-1>index?",":""} 
+                        {skill.length-1>index?",":""} 
                     </div>
                ))}
           </div>
