@@ -19,7 +19,7 @@ const Projects = () => {
                          <div className='body'>
                                    <p className="font-bold mb-2">{item.name}</p>
                                    <p>{item.description}</p>
-                                   <p>{item.url}</p>
+                                   <a href={item.url}>{item.url}</a>
                               
                          </div>
                          

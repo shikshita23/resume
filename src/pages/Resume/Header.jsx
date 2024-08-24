@@ -24,7 +24,7 @@ const Header = () => {
                <FontAwesomeIcon icon={faCircle} className='w-[5px] h-[5px] my-auto mx-2'/>
                <div>{user.email}</div>
           </div> 
-          <div className=' body flex justify-center  text-[#555555] mt-2'><FontAwesomeIcon icon={faGithub} className='mx-3 my-auto'/>{user.github}</div>
+          <a href='https://github.com/shikshita23' className=' body flex justify-center  text-[#555555] mt-2'><FontAwesomeIcon icon={faGithub} className='mx-3 my-auto'/>{user.github}</a>
     </div>
   )
 }

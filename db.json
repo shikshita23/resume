@@ -83,10 +83,17 @@
     }
   ],
   "skills": [
-    "HTML", "CSS", "React JS","Bootstrap","Tailwind"
+    {"skill":"HTML"},
+    {"skill": "CSS"}, 
+   {"skill":"React"} ,
+    {"skill":"JS"},
+    {"skill":"Bootstrap"},
+    {"skill":"Tailwind"}
   ],
   "languages": [
-    "Nepali",   "English",  "Hindi"
+    {"name": "Nepali"}, 
+    {"name": "English"}, 
+    {"name": "Hindi"}
   ]
 
 }

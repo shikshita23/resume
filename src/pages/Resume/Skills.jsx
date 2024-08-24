@@ -9,16 +9,18 @@ const Skills = () => {
           .then((res)=>{
                setSkill(res.data)
                setLen(skill.length)
+               
           })
      },[])
   return (
     <>
+    
       <div className='heading font-bold tracking-widest mt-5 mb-2'>SKILLS</div>
       <hr className="border-[1px] border-[#d6d6d6]"/>
       <div className='flex body'>
                {skill.map((item,index)=>(
                     <div key={index} className='m-1'>
-                        {item}
+                        {item.skill}
                         {len-1>index?",":""} 
                     </div>
                ))}

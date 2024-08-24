@@ -10,7 +10,7 @@ const Introduction = () => {
           })
      },[])
   return (
-    <div className='body mt-4'>
+    <div className='body mt-7'>
           {intro}
     </div>
   )

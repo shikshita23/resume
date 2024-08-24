@@ -13,12 +13,13 @@ const Language = () => {
      },[])
   return (
     <>
+    
       <div className="heading font-bold tracking-widest mt-5 mb-2">LANGUAGES</div>
       <hr className="border-[1px] border-[#d6d6d6]"/>
       <div className='flex body mt-2'>
                {lang.map((item,index)=>(
                     <div key={index} className='m-1'>
-                        {item}
+                        {item.name}
                         {len-1>index?",":""} 
                     </div>
                ))}
