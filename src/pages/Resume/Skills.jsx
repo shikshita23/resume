@@ -23,7 +23,7 @@ const Skills = () => {
                         {item.skill}
                         {skill.length-1>index?",":""} 
                     </div>
-               ))}
+               ))}gfhfg
           </div>
     </>
   )
